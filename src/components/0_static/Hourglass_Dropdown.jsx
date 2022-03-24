@@ -15,20 +15,17 @@ export function Hourglass_Dropdown(props) {
   return (
     <div className="dropdown is-hoverable DROPDOWN_DIRECTION">
       <div className="dropdown-trigger">
-        {" "}
         <button
           className="pb-5 button is-focused is-hidden-mobile"
           aria-haspopup="true"
           aria-controls="dropdown-menu"
         >
-          {" "}
           <i className="icon icon-showDropdown" aria-hidden="true"></i>
-        </button>{" "}
+        </button>
       </div>
       <div className="dropdown-menu" role="menu">
         <div className="dropdown-content py-0">
           <div className="list has-overflow-ellipsis" style="width: 340px">
-            {" "}
             <a className="list-item has-text-centered">
               <div className="list-item-content">
                 <div className="list-item-title ">
@@ -37,7 +34,7 @@ export function Hourglass_Dropdown(props) {
                   <Icon_Edit />
                 </div>
               </div>
-            </a>{" "}
+            </a>
             <a className="list-item has-text-centered">
               <div className="list-item-content">
                 <div className="list-item-title">

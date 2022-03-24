@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function HorizontalWrapper() {
+export function HorizontalWrapper() {
   return (
     <div className="tile">
       <article></article>

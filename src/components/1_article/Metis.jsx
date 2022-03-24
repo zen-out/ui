@@ -10,7 +10,6 @@ export function Metis(props) {
         </li>
         <li>
           <a href="#">
-            {" "}
             <span
               className="is-flex is-justify-content-space-between is-flex-direction-row is-flex-wrap-nowrap "
               style="width: 100%; padding-right: 3rem;"

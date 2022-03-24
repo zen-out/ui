@@ -4,7 +4,6 @@ export function InputDate(props) {
   return (
     <div className="field has-addons" id="TABLE_NAME_TABLE_ID">
       <div className="control is-info">
-        {" "}
         <input
           type="text"
           name="start"
@@ -14,11 +13,9 @@ export function InputDate(props) {
         <span className="focus-border"></span>
       </div>
       <div className="control">
-        {" "}
-        <a className="button is-static">to</a>{" "}
+        <a className="button is-static">to</a>
       </div>
       <div className="control is-info">
-        {" "}
         <input
           type="text"
           name="end"

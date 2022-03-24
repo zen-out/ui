@@ -13,14 +13,12 @@ export function Radio_Edit_Use() {
           >
             <input type="radio" name="usefulness" value="medium" />
             <div className="state p-info-o p-on">
-              {" "}
-              <i className="icon icon icon-highUse hvr-icon"></i>{" "}
-              <label></label>{" "}
+              <i className="icon icon icon-highUse hvr-icon"></i>
+              <label></label>
             </div>
             <div className="state p-off">
-              {" "}
-              <i className="icon icon icon-highUse hvr-icon"></i>{" "}
-              <label></label>{" "}
+              <i className="icon icon icon-highUse hvr-icon"></i>
+              <label></label>
             </div>
           </div>
           <div
@@ -29,13 +27,11 @@ export function Radio_Edit_Use() {
           >
             <input type="radio" name="usefulness" value="medium" />
             <div className="state p-info-o p-on">
-              {" "}
-              <i className="icon icon icon-medUse hvr-icon"></i> <label></label>{" "}
+              <i className="icon icon icon-medUse hvr-icon"></i> <label></label>
             </div>
             <div className="state p-off">
-              {" "}
               <i className="icon icon icon-medUse hvr-icon"></i>
-              <label></label>{" "}
+              <label></label>
             </div>
           </div>
           <div
@@ -45,13 +41,11 @@ export function Radio_Edit_Use() {
           >
             <input type="radio" name="usefulness" value="low" />
             <div className="state p-info-o p-on">
-              {" "}
               <i className="icon icon icon-lowUse hvr-icon"></i>
-              <label></label>{" "}
+              <label></label>
             </div>
             <div className="state p-off">
-              {" "}
-              <i className="icon icon icon-lowUse hvr-icon"></i> <label></label>{" "}
+              <i className="icon icon icon-lowUse hvr-icon"></i> <label></label>
             </div>
           </div>
         </div>

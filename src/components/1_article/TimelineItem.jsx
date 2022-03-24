@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function TimelineItem(props) {
+export function TimelineItem(props) {
   let icon = `icon ${props.icon_name}`;
   return (
     <div className="timeline-item is-link">

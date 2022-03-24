@@ -23,7 +23,7 @@ export function ProgressCard(props) {
           <div className="level-item">
             {/* Start Tag */}
             <div className="tag is-rounded is-light">
-              <span className="has-text-weight-bold">created</span>&nbsp;{" "}
+              <span className="has-text-weight-bold">created</span>&nbsp;
               <span className="has-text-weight-normal">{props.start}</span>
             </div>
             {/* Start Tag */}

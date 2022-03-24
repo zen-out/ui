@@ -8,8 +8,7 @@ export function Checkbox_Status_Done() {
     >
       <input type="checkbox" name="markDone" />
       <div className="state p-info-o">
-        {" "}
-        <i className="icon icon-markDone"></i> <label></label>{" "}
+        <i className="icon icon-markDone"></i> <label></label>
       </div>
     </div>
   );

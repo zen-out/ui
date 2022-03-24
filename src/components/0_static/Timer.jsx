@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Timer(props) {
+export function Timer(props) {
   return (
     <div className="tag is-rounded is-info is-light">
       <span className="has-text-weight-bold">{props.seconds}</span>&nbsp;

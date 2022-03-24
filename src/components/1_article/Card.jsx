@@ -21,7 +21,6 @@ export function Card(props) {
               <Icon_Edit />
             </div>
             <div className="level-item has-text-centered">
-              {" "}
               <Icon_Delete />
             </div>
           </div>

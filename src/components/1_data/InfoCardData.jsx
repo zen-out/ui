@@ -10,8 +10,7 @@ export function InfoCardData(props) {
           </div>
         </div>
         <div className="level-right-item has-text-right">
-          {" "}
-          <i className="icon icon-focus"></i>{" "}
+          <i className="icon icon-focus"></i>
         </div>
       </div>
       <div className="level">
@@ -27,7 +26,7 @@ export function InfoCardData(props) {
       <div className="content">
         <p className="is-size-6 has-text-weight-light scroll-card">
           <data></data>
-        </p>{" "}
+        </p>
         <Tag_End end="March 27 2022" />
       </div>
     </div>
