@@ -27,7 +27,7 @@ export function Hourglass_Tags(props) {
         {props.created}
         <div className="tag is-rounded is-light">
           <span className="has-text-weight-bold">created</span>&nbsp;
-          <span className="has-text-weight-normal">{props.format_created}</span>
+          <span className="has-text-weight-normal">{props.created}</span>
         </div>
         {props.public}
         <div className="tag is-rounded is-link is-light">

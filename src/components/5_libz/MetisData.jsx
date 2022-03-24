@@ -1,8 +1,6 @@
 import React from "react";
-import { Icon_Add } from "../0_static";
-import { Icon_Edit } from "../0_static";
-import { Icon_Delete } from "../0_static";
-import { Icon_Focus } from "../0_static";
+import { Icon_Add, Icon_Edit, Icon_Delete, Icon_Focus } from "../static";
+
 export function MetisData(props) {
   return (
     <span

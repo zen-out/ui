@@ -13,7 +13,7 @@ import {
   Select,
   SocialCard,
   TimelineItem,
-} from "../1_article";
+} from "../article";
 import {
   FooterData,
   InfoCardData,
@@ -29,12 +29,10 @@ import {
   TilesHorizData,
   TilesVertData,
   TimelineData,
-} from "../1_data";
+} from "../data";
 import {
-  Tag_End,
-  Navbar,
-  Tag_Start,
   Button,
+  Button_Icon,
   Checkbox_Status_Done,
   Edit_Hourglass_Radio,
   Hamburger,
@@ -46,12 +44,16 @@ import {
   Icon_Edit,
   Icon_Focus,
   Level_Progress,
+  Navbar,
   New_Hourglass_Radio,
   Radio_Edit_Diff,
   Radio_Edit_Imp,
   Radio_Edit_Use,
   Tag,
-} from "../0_static";
+  Tag_End,
+  Tag_Start,
+  Timer,
+} from "../static";
 import {
   CalendarSection,
   HorizontalWrapper,
@@ -63,7 +65,7 @@ import {
   TableSection,
   TagsSection,
   VerticalWrapper,
-} from "../4_section";
+} from "../section";
 import {
   InputDate,
   IsotopeBtnWrapper,
@@ -83,56 +85,68 @@ import { AuthLayout, ErrorLayout, MainLayout } from "../6_layouts";
  ***********************************************/
 export function Dashboard() {
   return (
-    <div>
-      hi
-      <div className="row">
-        {/* <div className="row" style="min-height: 100vh;"> */}
-        <div className="col one">
-          <nav />
-        </div>
-        <ProgressCard
-          percentage="34%"
-          end="March 20, 2022"
-          table_name="problem"
-          start="March 21, 2022"
-        />
-        <div className="cols eleven">
-          <Header title="Dashboard" />
-          <section className="hero is-default is-bold">
-            <div className="hero-head"></div>
-            <div className="hero-body">
-              {/* Horizontal Tile */}
-              {/*   col one */}
-              {/* Vertical Tile */}
-              <div class="tile is-ancestor">
-                <div className="tile is-child">
-                  {/* Horizontal Wrapper */}
-                  <div className="tile">
-                    <article></article>
-                  </div>
-                  {/* Horizontal Wrapper */}
-                  <div className="tile">{/* three cols */}</div>
-                  {/* First Row */}
-                  {/* Second Row */}
-                  <div className="tile"></div>
-                  {/* Second Row */}
-                </div>
+    // <div>
+    // hi
+    <div class="row">
+      {/* <div className="row" style="min-height: 100vh;"> */}
+      <div className="col one">
+        <Navbar />
+      </div>
+      <div className="cols eleven">
+        <Header title="Dashboard" />
+        {/* <section className="hero is-default is-bold"> */}
+        {/* <div className="hero-head"></div> */}
+        {/* <div className="hero-body"> */}
+        <div className="row">
+          <div className="col one-half">
+            {" "}
+            <div class="row">
+              <div class="tile">
+                <ProgressCard
+                  percentage="70%"
+                  end="March 27, 2022"
+                  start="Dec 1, 2021"
+                  table_name="problem"
+                />
+                <ProgressCard
+                  percentage="70%"
+                  end="March 27, 2022"
+                  start="Dec 1, 2021"
+                  table_name="problem"
+                />
+                <ProgressCard
+                  percentage="70%"
+                  end="March 27, 2022"
+                  start="Dec 1, 2021"
+                  table_name="problem"
+                />
               </div>
-              {/* Vertical Tile */}
-              {/* col one */}
-              {/* col two */}
-              <InfoCardData
-                table_name="problem"
-                created="Dec 1, 2021"
-                end="March 27, 2022"
-              />
+              <div class="tile">
+                {" "}
+                <InfoCardData
+                  table_name="problem"
+                  created="Dec 1, 2021"
+                  end="March 27, 2022"
+                  status=""
+                  importance="fa"
+                  difficulty=""
+                  usefulness=""
+                  public=" "
+                />
+              </div>
 
-              {/* col two */}
-              {/* Horizontal Tile */}
+              <div class="col one-half"></div>
+              {/* </div> */}
+              {/* </div> */}
+
+              {/* <div className="hero-foot">aside</div> */}
+              {/* </section> */}
             </div>
+          </div>
 
-            <div className="hero-foot">aside</div>
-          </section>
+          <div className="col one-half">
+            <ScrollCardData />
+          </div>
         </div>
       </div>
     </div>

@@ -1,21 +1,17 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Calendar } from "./components/pages/Calendar";
+import { Dashboard } from "./components/pages/Dashboard";
+import { ForgotPass } from "./components/pages/ForgotPass";
+import { Login } from "./components/pages/Login";
+import { Profile } from "./components/pages/Profile";
+import { Settings } from "./components/pages/Settings";
+import { Signup } from "./components/pages/Signup";
+import { Table } from "./components/pages/Table";
 
-import {
-    BrowserRouter,
-    Routes,
-    Route,
-} from "react-router-dom";
-import { Calendar } from './components/pages/Calendar'
-import { Dashboard } from './components/pages/Dashboard'
-import { ForgotPass } from './components/pages/ForgotPass'
-import { Login } from './components/pages/Login'
-import { Profile } from './components/pages/Profile'
-import { Settings } from './components/pages/Settings'
-import { Signup } from './components/pages/Signup'
-import { Table } from './components/pages/Table'
+import { StyleGuide } from "./components/reference/StyleGuide";
 
-import { StyleGuide } from './components/reference/StyleGuide'
-
- {/* <BrowserRouter>
+{
+  /* <BrowserRouter>
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="signup" element={<Signup />} />
@@ -30,18 +26,20 @@ import { StyleGuide } from './components/reference/StyleGuide'
           <Route path="calendar" element={<Calendar />} />
         </Routes>
       </BrowserRouter>
-      hi */}
-
-function App() {
-    return ( 
-        <div>
-        <div>hi</div>
-        <div><Dashboard/></div>
-        
-        {/* <StyleGuide/> */}
-        </div>
-        
-    );
+      hi */
 }
 
-export default App
+function App() {
+  return (
+    <div>
+      <div>hi</div>
+      <div>
+        <Dashboard />
+      </div>
+
+      {/* <StyleGuide/> */}
+    </div>
+  );
+}
+
+export default App;

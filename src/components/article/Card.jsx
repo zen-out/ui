@@ -1,9 +1,9 @@
 import React from "react";
-import { Checkbox_Status_Done } from "../0_static";
-import { Icon_Add } from "../0_static";
-import { Icon_Edit } from "../0_static";
-import { New_Hourglass_Radio } from "../0_static";
-import { Icon_Delete } from "../0_static";
+import { Checkbox_Status_Done } from "../static";
+import { Icon_Add } from "../static";
+import { Icon_Edit } from "../static";
+import { New_Hourglass_Radio } from "../static";
+import { Icon_Delete } from "../static";
 export function Card(props) {
   return (
     <div className="card p-4">

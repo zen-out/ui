@@ -1,6 +1,6 @@
 import React from "react";
 
-export function New_Hourglass_Radio(props) {
+export function New_Hourglass_Radio() {
   return (
     <nav className="level">
       <div className="level-item has-text-centered">

@@ -1,4 +1,20 @@
 import React from "react";
+import { Hourglass_Tags } from "../static";
+import {
+  Card,
+  CardBuilder,
+  ChecklistCard,
+  DropdownArticle,
+  Isotope,
+  Message,
+  Metis,
+  Muuri,
+  NavbarDropdown,
+  ProgressCard,
+  Select,
+  SocialCard,
+  TimelineItem,
+} from "../article";
 function Tag_End(props) {
   return (
     <div className="tag is-rounded is-link is-light">
@@ -32,6 +48,14 @@ export function InfoCardData(props) {
         </div>
       </div>
       <div className="content">
+        <Hourglass_Tags
+          status={props.status}
+          importance={props.importance}
+          usefulness={props.usefulness}
+          difficulty={props.difficulty}
+          created={props.created}
+          public={props.public}
+        />
         <p className="is-size-6 has-text-weight-light scroll-card">
           <data></data>
         </p>

@@ -1,6 +1,5 @@
 import React from "react";
-import { Hourglass_Tags } from "../0_static";
-import { Checkbox_Status_Done } from "../0_static";
+import { Hourglass_Tags, Checkbox_Status_Done } from "../static";
 
 export function SocialCard(props) {
   return (
@@ -22,7 +21,14 @@ export function SocialCard(props) {
         </p>
         <article></article>
         <br />
-        <Hourglass_Tags />
+        <Hourglass_Tags
+          status={props.status}
+          importance={props.importance}
+          usefulness={props.usefulness}
+          difficulty={props.difficulty}
+          created={props.created}
+          public={props.public}
+        />
         <time datetime="{props.created}">{props.created}</time>
       </div>
     </div>

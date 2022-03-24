@@ -1,7 +1,9 @@
 import React from "react";
-import { Hourglass_Tags } from "../0_static";
-import { Checkbox_Status_Done } from "../0_static";
-import { Hourglass_Dropdown } from "../0_static";
+import {
+  Hourglass_Tags,
+  Checkbox_Status_Done,
+  Hourglass_Dropdown,
+} from "../static";
 
 export function ChecklistCard(props) {
   return (
@@ -19,7 +21,14 @@ export function ChecklistCard(props) {
           {props.syntax}
           <br />
           <br />
-          <Hourglass_Tags />
+          <Hourglass_Tags
+            status={props.status}
+            importance={props.importance}
+            usefulness={props.usefulness}
+            difficulty={props.difficulty}
+            created={props.created}
+            public={props.public}
+          />
         </div>
       </div>
       <div className="list-item-controls">

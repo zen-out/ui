@@ -11,7 +11,7 @@ import { Radio_Edit_Imp } from "./Radio_Edit_Imp";
 
 import { Radio_Edit_Use } from "./Radio_Edit_Use";
 
-export function Hourglass_Dropdown(props) {
+export function Hourglass_Dropdown() {
   return (
     <div className="dropdown is-hoverable DROPDOWN_DIRECTION">
       <div className="dropdown-trigger">
