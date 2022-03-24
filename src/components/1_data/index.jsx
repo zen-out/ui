@@ -7,6 +7,7 @@ import { NavHorizData } from "./NavHorizData";
 import { NavVertData } from "./NavVertData";
 import { PaymentData } from "./PaymentData";
 import { ScrollCardData } from "./ScrollCardData";
+import { SelectData } from "./SelectData";
 import { TableRowsData } from "./TableRowsData";
 import { TilesHorizData } from "./TilesHorizData";
 import { TilesVertData } from "./TilesVertData";
@@ -22,6 +23,7 @@ export {
   PaymentData,
   ScrollCardData,
   TableRowsData,
+  SelectData,
   TilesHorizData,
   TilesVertData,
   TimelineData,

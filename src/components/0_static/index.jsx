@@ -17,9 +17,11 @@ import { Radio_Edit_Use } from "./Radio_Edit_Use";
 import { Tag } from "./Tag";
 import { Tag_End } from "./Tag_End";
 import { Tag_Start } from "./Tag_Start";
+import { Navbar } from "./Navbar";
 
 export {
   Tag_End,
+  Navbar,
   Tag_Start,
   Button,
   Checkbox_Status_Done,

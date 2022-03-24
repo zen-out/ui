@@ -1,6 +1,6 @@
 import React from "react";
 
-export function SelectItem(props) {
+export function SelectData(props) {
   return (
     <div className="select is-rounded">
       <select className="is-hovered">

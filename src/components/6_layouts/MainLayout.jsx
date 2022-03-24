@@ -4,7 +4,7 @@ export function MainLayout(props) {
   return (
     <div className="row" style="min-height: 100vh;">
       <div className="col one">
-        <navbar></navbar>
+        <nav></nav>
       </div>
       <div className="cols eleven">
         <header></header>

@@ -15,14 +15,14 @@ export function DropdownArticle(props) {
         <div className="dropdown-content">
           {/* Each */}
           <hr className="dropdown-divider" />
-          <a href="#" className="dropdown-item">
+          <a className="dropdown-item">
             <span className="has-text-weight-bold">{props.column}:</span>
             {props.syntax}
           </a>
           {/* Each */}
           {/* Each */}
           <hr className="dropdown-divider" />
-          <a href="#" className="dropdown-item">
+          <a className="dropdown-item">
             <span className="has-text-weight-bold">{props.column}:</span>
             {props.syntax}
           </a>

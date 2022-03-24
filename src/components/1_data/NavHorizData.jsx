@@ -23,7 +23,7 @@ export function NavHorizData(props) {
             <i className="icon icon-public"></i>
           </div>
           <div className="navbar-item">
-            <navbar></navbar>
+            <nav></nav>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ export function TagsSection(props) {
     <div className="container">
       <div className="columns">
         <div className="column is-3">
-          <navbar></navbar>
+          <nav></nav>
         </div>
         <div className="column is-9">
           <div className="content is-medium">

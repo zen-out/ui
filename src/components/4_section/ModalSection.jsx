@@ -31,8 +31,8 @@ export function ModalSection(props) {
             </div>
             <div className="content">
               content
-              <a>@bulmaio</a>.<a href="#">#css</a>
-              <a href="#">#responsive</a>
+              <a>@bulmaio</a>.<a>#css</a>
+              <a>#responsive</a>
               <br />
               <time datetime="2018-02-02">12:45 AM - 20 May 2018</time>
             </div>

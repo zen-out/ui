@@ -10,9 +10,6 @@ import { NavbarDropdown } from "./NavbarDropdown";
 import { ProgressCard } from "./ProgressCard";
 import { Select } from "./Select";
 import { SocialCard } from "./SocialCard";
-import { TableRow } from "./TableRow";
-import { TileHoriz } from "./TileHoriz";
-import { TileVert } from "./TileVert";
 import { TimelineItem } from "./TimelineItem";
 export {
   Card,
@@ -27,8 +24,5 @@ export {
   ProgressCard,
   Select,
   SocialCard,
-  TableRow,
-  TileHoriz,
-  TileVert,
   TimelineItem,
 };

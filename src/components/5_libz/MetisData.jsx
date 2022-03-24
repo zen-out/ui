@@ -11,7 +11,7 @@ export function MetisData(props) {
     >
       <ul className="metismenu is-inverted">
         <li>
-          <a href="#" aria-expanded="false">
+          <a aria-expanded="false">
             <span
               className="is-flex is-align-items-center is-flex-direction-row is-flex-wrap-nowrap pb-3"
               style="width: 100%"

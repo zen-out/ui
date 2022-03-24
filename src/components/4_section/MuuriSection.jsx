@@ -1,6 +1,6 @@
 import React from "react";
 
-const Muurisection = () => {
+export function MuuriSection() {
   return (
     <div className="muuri_master_wrapper">
       <div className="drag_container"></div>
@@ -9,6 +9,4 @@ const Muurisection = () => {
       </div>
     </div>
   );
-};
-
-exportMuurisection;
+}

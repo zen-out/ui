@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export function Navbar(props) {
+export function Navbar() {
   return (
     <aside className="menu">
       <ul className="optee_nav menu-list is-align-items-center">
